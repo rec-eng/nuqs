@@ -4,7 +4,7 @@ import { styleText } from 'node:util'
 import { defineConfig, type Options } from 'tsup'
 
 const commonConfig = {
-  format: ['esm'],
+  format: ['cjs'],
   experimentalDts: true,
   outDir: 'dist',
   external: [

@@ -1,2 +1,10 @@
-size.json
+coverage
+dist
+.env
+.next
 node_modules
+size.json
+*.tsbuildinfo
+.tsup
+.turbo
+.vercel
