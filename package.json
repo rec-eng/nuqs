@@ -54,7 +54,7 @@
     "dev": "tsup --watch",
     "prebuild": "rm -rf dist",
     "build": "tsup",
-    "postbuild": "size-limit --json > size.json",
+    "postbuild": "size-limit --json > size.json && echo \"Successfully built within size limites\" || echo \"WARNING: Successfully built, but exceeded size limits\"",
     "test": "pnpm run --stream '/^test:/'",
     "test:unit": "vitest run --typecheck",
     "test:size": "size-limit",
