@@ -1,7 +1,7 @@
 {
   "name": "nuqs",
   "version": "2.4.3",
-  "description": "Type-safe search params state manager for React - Like useState, but stored in the URL query string",
+  "description": "[REC VERSION] Type-safe search params state manager for React - Like useState, but stored in the URL query string",
   "license": "MIT",
   "author": {
     "name": "François Best",
@@ -34,19 +34,7 @@
     "provenance": true
   },
   "files": [
-    "dist/",
-    "server.d.ts",
-    "testing.d.ts",
-    "adapters/react.d.ts",
-    "adapters/next.d.ts",
-    "adapters/next/app.d.ts",
-    "adapters/next/pages.d.ts",
-    "adapters/remix.d.ts",
-    "adapters/react-router.d.ts",
-    "adapters/react-router/v6.d.ts",
-    "adapters/react-router/v7.d.ts",
-    "adapters/custom.d.ts",
-    "adapters/testing.d.ts"
+    "dist/"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
